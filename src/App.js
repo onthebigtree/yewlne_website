@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+// src/App.js
+
+import React from 'react';
 import './App.css';
 
 function App() {
+  const handleClick = () => {
+    alert('Button clicked!');
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Yewlne Personal Website
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="type-effect">Welcome to My Personal Website</h1>
       </header>
+      <main className="App-content">
+        <p className="type-effect">Yewlne Website</p>
+        <div className="animated-box"></div>
+        <button className="interactive-button" onClick={handleClick}>Click me!</button>
+      </main>
+      <footer className="App-footer">
+        <p>&copy; {new Date().getFullYear()} Yewlne</p>
+      </footer>
     </div>
   );
 }
