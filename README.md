@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 项目名称
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个使用React.js构建的项目。项目文件目录结构和各个文件的用途。
 
-## Available Scripts
+## 文件目录结构
 
-In the project directory, you can run:
+以下是项目的目录结构：
 
-### `npm start`
+```bash
+/my-app
+|-- README.md # 这是您正在阅读的文件，包含对项目及其构建的详细说明。
+|-- node_modules/ # 该文件夹包含所有的项目依赖项。这些都是通过npm安装的。
+|-- package.json # 这个文件包含项目的元信息和依赖项列表。
+|-- public/
+|   |-- index.html # 这是项目的主页HTML文件。在默认设置下，React将在这里插入生成的内容。
+|   |-- favicon.ico # 这是项目的网站图标。
+|   |-- manifest.json # Web应用的清单文件，定义了应用的名称、图标等。
+|-- src/
+|   |-- App.js # 这是项目的主要组件，React应用的核心内容通常在这个文件中。
+|   |-- index.js # 这是项目的入口点，负责渲染App组件。
+|   |-- App.css # 这个文件包含App组件的样式。
+|   |-- App.test.js # 这个文件用于测试App组件的功能。
+|   |-- serviceWorker.js # 该文件用于在生产环境中为应用启用服务工作者，以提供离线支持和更快的页面加载。
+|   |-- setupTests.js # 该文件用于设置用于测试的任何东西，如测试框架或模拟库。
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+开启调试 ``npm start``
